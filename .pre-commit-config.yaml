@@ -13,7 +13,7 @@ repos:
         entry: pylint
         language: system
         types: [ python ]
-        args: [ "app/" , "--disable=all" ]
+        args: [ "app/" , "--disable=W,C,R,no-name-in-module" ]
 
   - repo: local
     hooks:
